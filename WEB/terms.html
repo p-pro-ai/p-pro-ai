@@ -1,0 +1,157 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pricing.css">
+  <title>Terms</title>
+  <script src="https://js.stripe.com/v3/"></script>
+  <style>
+
+    body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333333;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #9c27b0;
+  margin-bottom: 30px;
+}
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.pricing-card {
+  background-color: #333333;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.pricing-card h2 {
+  font-size: 1.75em;
+  margin-bottom: 10px;
+}
+
+.pricing-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-card li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #9c27b0;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+font-size: 1em;
+padding: 10px 20px;
+text-transform: uppercase;
+transition: background-color 0.3s;
+}
+
+button:hover {
+background-color: #7b1fa2;
+}
+
+@media (max-width: 768px) {
+.pricing-container {
+flex-direction: column;
+}
+
+.pricing-card {
+margin: 20px auto;
+}
+}
+.back-to-dashboard {
+    display: inline-flex;
+    align-items: center;
+    background-color: #a32121;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.arrow {
+    margin-right: 8px;
+}
+
+.back-to-dashboard:hover {
+    background-color:#a32121bf;
+}
+  </style>
+    <script src="https://kit.fontawesome.com/4874d26c0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<header>
+<a href="index.html" class="back-to-dashboard">
+        <span class="arrow">&#8592;</span> Back
+    </a>
+    <div class="container">
+      <h1>Terms</h1>
+      
+    </div>
+  </header>
+  <main>
+            <p style="padding: 50px; font-size: 20px;">
+                <ol>
+                    <li>By using the P-PRO AI program and its services, you agree to comply with these Terms and Conditions.</li>
+                    <li>P-PRO AI reserves the right to modify these Terms and Conditions at any time without prior notice. Your continued use of the program and its services following any changes to the Terms and Conditions constitutes your acceptance of those changes.</li>
+                    <li>P-PRO AI reserves the right to terminate your access to the program and its services at any time and for any reason, without liability to you.</li>
+                    <li>You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account. You agree to notify P-PRO AI immediately of any unauthorized use of your account or any other breach of security.</li>
+                    <li>You agree to use the P-PRO AI program and its services only for lawful purposes and in a manner consistent with all applicable laws and regulations.</li>
+                    <li>P-PRO AI may provide links to third-party websites or resources. You acknowledge and agree that P-PRO AI is not responsible for the availability of such external sites or resources and does not endorse and is not responsible or liable for any content, advertising, products, or other materials on or available from such sites or resources.</li>
+                </ol>
+            
+                <h1>Privacy Policy:</h1>
+                <ol>
+                    <li>P-PRO AI respects your privacy and is committed to protecting your personal information.</li>
+                    <li>P-PRO AI collects and uses your personal information only for the purpose of providing you with its services.</li>
+                    <li>P-PRO AI does not share your personal information with third parties, except as required by law or as necessary to provide you with its services.</li>
+                    <li>P-PRO AI uses industry-standard security measures to protect your personal information from unauthorized access, use, or disclosure.</li>
+                    <li>P-PRO AI uses cookies to personalize your experience and to collect information about how you use the program and its services. You can disable cookies in your browser settings, but this may limit your ability to use some features of the program and its services.</li>
+                    <li>P-PRO AI may use your personal information to send you promotional offers or other marketing materials. You may opt-out of receiving such communications at any time by following the instructions provided in the communication.</li>
+                    <li>P-PRO AI prohibits the use of one account by multiple users. Violation of this policy may result in the termination of your account without prior notice.</li>
+                </ol>
+    </p>
+  </main>
+</body>
+</html>
